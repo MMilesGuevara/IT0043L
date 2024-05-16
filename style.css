@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap");
+body{
+    text-align: center;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/002/549/465/original/abstract-white-and-gold-polygon-background-free-vector.jpg"); margin: 200px;
+    font-family:"Roboto Slab";
+    font-size: large;
+}
+
+
+h1{
+    height: 50px;
+    font-size: 5em;
+    font-weight: bolder;
+    color: rgb(2, 77, 2);
+    text-align: center;
+}
+
+h2{
+    font-size: 3em;
+    font-weight: 500;
+    color: rgb(179, 176, 12);
+    text-align: center;
+}
+
+.l1{
+    color: green;
+}
+
+.l2{
+    color: rgb(179, 176, 12);
+}
+
+.content{
+    text-align: center;
+    justify-content: center;
+}
