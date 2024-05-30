@@ -1,0 +1,98 @@
+body{
+    background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/7c1cfff2-db8d-44cd-8a13-cb2a4162fae6/dd2zouo-047f7b3f-b895-43ac-82a4-abb6ca12c52a.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzdjMWNmZmYyLWRiOGQtNDRjZC04YTEzLWNiMmE0MTYyZmFlNlwvZGQyem91by0wNDdmN2IzZi1iODk1LTQzYWMtODJhNC1hYmI2Y2ExMmM1MmEucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.EFI6YQ0acRLpYHzupMAxV_N4KMcpNWT-_3RJ4TV-4eU');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0%;
+    padding:0%;
+    height: 100%;
+}
+
+.grid-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 50px;
+}
+
+.badge{
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    margin: 0.5rem;
+    justify-content: space-around;
+}
+
+.image-container{
+
+    justify-content: space-around;
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+
+.text{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: monospace;
+    font-size: large;
+}
+
+.abra{
+    background-color: gold;
+}
+
+.bellsprout{
+    background-color: green;
+}
+
+.caterpie{
+    background-color: purple;
+}
+
+.charmander{
+    background-color: orange;
+}
+
+.dratini{
+    background-color:aqua;
+}
+
+.jigglypuff{
+    background-color: pink;
+}
+
+.squirtle{
+    background-color: blue;
+}
+
+.pidgey{
+    background-color: brown;
+}
+
+.eevee{
+    background-color: silver;
+}
+
+.snorlax{
+    background-color: darkblue;
+}
+
+.weedle{
+    background-color: khaki;
+}
+
+.pikachu{
+    background-color: yellow;
+}
+
+.haunter{
+    background-color: black;
+}
+
+
+img{
+    width: 300px;
+    height: 300px;
+    margin-bottom: 0.5rem;
+}
