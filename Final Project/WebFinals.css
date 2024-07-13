@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a;
+    color: #fff;
+}
+
+nav {
+    background-color: #2c2c2c;
+    color: white;
+    padding: 10px 0;
+}
+
+nav .container {
+    display: flex;
+    margin-left: 10px;
+    text-decoration: none;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    margin-left: 20px;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: solid;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+nav ul li a.active {
+    color: #6c63ff;
+}
+
+main {
+    padding: 20px 0;
+}
+
+main .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+section {
+    margin: 40px 
+}
+
+section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.home-section {
+    text-align: center;
+    padding: 100px 0;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+}
+
+.profile h1 {
+    font-size: 2.5em;
+    margin: 10px 0;
+}
+
+.socials-section .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.social-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social-icon {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 50px;
+}
+
+.profile .btn:hover {
+    background-color: #5548c8;
+}
+
+.highlight{
+    color: #6c63ff;
+}
+
+.about, .projects, .faq {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about, .project, .faq {
+    margin: 10px;
+    flex: 1 1 calc(33.333% - 20px);
+    background-color: #2c2c2c;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.project img, .blog-post img {
+    max-width: 100%;
+    border-radius: 10px;
+}
